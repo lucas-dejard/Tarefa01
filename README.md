@@ -3,4 +3,4 @@ Tarefa do Estágio Compass Linux
 
 *Implementações*
 
-  1 - Instação do Oracle Linux 8
+  1 - Mudança da rede para Modo Bridge
