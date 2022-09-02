@@ -6,18 +6,15 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.16-linux">
-  <Machine uuid="{4b090b24-808a-4350-8ece-33cc3f9deb9a}" name="OCL Prova" OSType="Oracle_64" snapshotFolder="Snapshots" lastStateChange="2022-08-31T15:43:02Z">
+  <Machine uuid="{4b090b24-808a-4350-8ece-33cc3f9deb9a}" name="OCL Prova" OSType="Oracle_64" snapshotFolder="Snapshots" lastStateChange="2022-09-02T13:43:10Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{82d22b97-1978-445a-9870-3399eb410e6b}" location="OCL Prova.vhd" format="VHD" type="Normal"/>
       </HardDisks>
-      <DVDImages>
-        <Image uuid="{b60f215f-0880-46e7-a412-11bb1bf9b87c}" location="/home/lucasdejard/Downloads/OracleLinux-R8-U6-x86_64-dvd.iso"/>
-      </DVDImages>
     </MediaRegistry>
     <ExtraData>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="2558,41,800,644"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="2558,65,800,644"/>
     </ExtraData>
     <Hardware>
       <CPU>
@@ -28,7 +25,7 @@
       </CPU>
       <Memory RAMSize="1024"/>
       <Display controller="VMSVGA" VRAMSize="16"/>
-      <VideoCapture file="." fps="25"/>
+      <VideoCapture screens="1" file="." fps="25"/>
       <BIOS>
         <IOAPIC enabled="true"/>
         <SmbiosUuidLittleEndian enabled="true"/>
@@ -40,14 +37,18 @@
       </USB>
       <Network>
         <Adapter slot="0" enabled="true" MACAddress="080027D75795" type="82540EM">
-          <NAT/>
+          <DisabledModes>
+            <InternalNetwork name="intnet"/>
+            <NATNetwork name="NatNetwork"/>
+          </DisabledModes>
+          <BridgedInterface name="wlp3s0"/>
         </Adapter>
       </Network>
       <AudioAdapter codec="AD1980" driver="Pulse" enabled="true" enabledIn="false"/>
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pt_BR" timestamp="1661958785673663000" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pt_BR" timestamp="1662126191310730000" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
