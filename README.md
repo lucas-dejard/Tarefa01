@@ -3,4 +3,4 @@ Tarefa do Estágio Compass Linux
 
 *Implementações*
 
-  1 - Mudança da rede para Modo Bridge
+  1 - Criação de Chave p
