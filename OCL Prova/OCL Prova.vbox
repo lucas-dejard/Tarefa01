@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.16-linux">
-  <Machine uuid="{4b090b24-808a-4350-8ece-33cc3f9deb9a}" name="OCL Prova" OSType="Oracle_64" snapshotFolder="Snapshots" lastStateChange="2022-09-02T13:43:10Z">
+  <Machine uuid="{4b090b24-808a-4350-8ece-33cc3f9deb9a}" name="OCL Prova" OSType="Oracle_64" snapshotFolder="Snapshots" lastStateChange="2022-09-09T15:18:02Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{82d22b97-1978-445a-9870-3399eb410e6b}" location="OCL Prova.vhd" format="VHD" type="Normal"/>
@@ -14,7 +14,7 @@
     </MediaRegistry>
     <ExtraData>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="2558,65,800,644"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="2558,266,800,644"/>
     </ExtraData>
     <Hardware>
       <CPU>
@@ -41,14 +41,14 @@
             <InternalNetwork name="intnet"/>
             <NATNetwork name="NatNetwork"/>
           </DisabledModes>
-          <BridgedInterface name="wlp3s0"/>
+          <BridgedInterface name="eno1"/>
         </Adapter>
       </Network>
       <AudioAdapter codec="AD1980" driver="Pulse" enabled="true" enabledIn="false"/>
       <RTC localOrUTC="UTC"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pt_BR" timestamp="1662126191310730000" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="pt_BR" timestamp="1662736682808942000" flags=""/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
