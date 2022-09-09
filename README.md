@@ -3,4 +3,4 @@ Tarefa do Estágio Compass Linux
 
 *Implementações*
 
-  1 - Criação de Chave p
+  1 - Criação de Chave pública e privada.
