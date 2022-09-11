@@ -1,0 +1,15 @@
+Instalação Linux
+
+Requisitos:
+  Mínimo de 2 CPU's lógicas
+  Mínimo de 10GB de espaço em disco
+  Máquina disponível para instaçaão (pode utilizar o virtualbox)
+  
+Download da Virtualbox: https://www.virtualbox.org/wiki/Downloads
+  Siga os passos de instalação de acordo com seu sistema operacional
+
+Download do Oracle linux: https://yum.oracle.com/oracle-linux-isos.html
+  Através do link acima selecione a versão do Linux desejada(Full ISO é a recomendada)
+
+Criação da máquina virtual no Virtualbox:
+
